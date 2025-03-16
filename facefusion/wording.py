@@ -227,9 +227,9 @@ WORDING : Dict[str, Any] =\
 	},
 	'about':
 	{
-		'become_a_member': 'become a member',
-		'join_our_community': 'join our community',
-		'read_the_documentation': 'read the documentation'
+		'become_a_member': 'Visit my GitHub',
+		'join_our_community': 'Try Suva Ai',
+		'read_the_documentation': 'Visit my Website'
 	},
 	'uis':
 	{
