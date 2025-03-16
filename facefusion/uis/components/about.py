@@ -14,20 +14,20 @@ def render() -> None:
 	global ACTION_BUTTON
 
 	action = random.choice(
-	[
-		{
-			'wording': wording.get('about.become_a_member'),
-			'url': 'https://subscribe.facefusion.io'
-		},
-		{
-			'wording': wording.get('about.join_our_community'),
-			'url': 'https://join.facefusion.io'
-		},
-		{
-			'wording': wording.get('about.read_the_documentation'),
-			'url': 'https://docs.facefusion.io'
-		}
-	])
+[
+    {
+        'wording': wording.get('about.become_a_member'),
+        'url': 'https://github.com/MubTaXim'
+    },
+    {
+        'wording': wording.get('about.join_our_community'),
+        'url': 'https://m.me/SuvashiniAi'
+    },
+    {
+        'wording': wording.get('about.read_the_documentation'),
+        'url': 'https://mubtaxim.social'
+    }
+])
 
 	METADATA_BUTTON = gradio.Button(
 		value = metadata.get('name') + ' ' + metadata.get('version'),
